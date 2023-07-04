@@ -1,0 +1,43 @@
+{
+  "name": "@chronocat/koishi-plugin-launcher",
+  "description": "超时空猫猫 / 启动器",
+  "version": "0.0.5",
+  "author": {
+    "name": "Il Harper",
+    "email": "hi@ilharper.com",
+    "url": "https://ilharper.com"
+  },
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "license": "UNLICENSED",
+  "keywords": [
+    "chatbot",
+    "koishi",
+    "plugin",
+    "onebot",
+    "qq",
+    "qqnt",
+    "bot",
+    "chronocat"
+  ],
+  "dependencies": {
+    "@swc/helpers": "^0.5.1",
+    "execa": "^5"
+  },
+  "peerDependencies": {
+    "koishi": "^4.13.5"
+  },
+  "koishi": {
+    "preview": true,
+    "description": {
+      "zh": "超时空猫猫 / 启动器"
+    },
+    "locales": [
+      "zh"
+    ]
+  }
+}
