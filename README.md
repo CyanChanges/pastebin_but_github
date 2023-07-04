@@ -1,2 +1,2 @@
-# pastebin_but_github
-The repo which I paste code and text
+# My Pastebin (GitHub)
+The place which I paste code and text
